@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p,ol,ul,li{
+    margin: 0;
+    padding: 0;
+}
+/* common css end */
+/* header part start */
+.header_cont{
+    background: purple;
+    color: white;
+}
+.header_right p{
+    display: inline-block;
+    border-right: 1px solid white;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.header_right a{
+    text-decoration: none;
+    color: white;
+}
+/* header part end */
+/* logo part start */
+.logo_part{
+    margin-top: 10px;
+}
+.logo_input input{
+    width: 70%;
+    margin-top: 15px;
+}
+.logo1{
+    border-right: 1px solid purple;
+    margin-right: 10px;
+    padding-right: 10px;
+    margin-top: 13px;
+}
+/* logo part end */
+/* navbar part start */
+/* .navbar_part{
+    background: purple;
+} */
+/* navbar part end */
+/* sidebar part start */
+.sidebar_input{
+    width: 90%;
+}
+.sidebar_vedio p{
+    background: purple;
+}
+/* sidebar part end */
+.navber_nav{
+    display: flex;
+    
+}
+.navber_nav a{
+    text-decoration: none;
+    padding-right: 15px;
+}
+.lastpicture img{
+    display: block;
+    width: 100%;
+}
